@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到发送页面"
+        android:id="@+id/btn1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送粘性消息"
+        android:id="@+id/btn2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:text="接受消息"
+        android:layout_height="wrap_content"
+        android:id="@+id/et"/>
+
+</LinearLayout>

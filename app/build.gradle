@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "app.lhq.ok406.framedemos"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    // If you want to use the GPU Filters
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/eventbus-3.1.1.jar')
+    compile files('libs/volley-sources.jar')
+    compile files('libs/volley.jar')
+    compile files('libs/fastjson-1.1.54.android.jar')
+    compile files('libs/gson-2.7.jar')
+    compile files('libs/universal-image-loader-1.9.5.jar')
+    compile project(':banner')
+    //    compile 'com.lzy.net:okgo:3.0.4'
+
+    //    compile 'com.lzy.net:okserver:2.0.5'
+    compile project(':okgo')
+    compile project(':okrx2')
+    compile project(':okserver')
+    compile project(':jcvideoplayer-lib')
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    compile 'jp.wasabeef:picasso-transformations:2.1.0'
+    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'org.xutils:xutils:3.5.0'
+    compile 'com.facebook.fresco:fresco:0.12.0'
+    compile 'com.facebook.fresco:animated-gif:0.12.0'
+    compile 'com.zxy.android:recovery:0.0.8'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile project(':opendanmaku')
+    compile project(':pullToRefresh_library')
+    compile project(':pullToRefreshListFragment')
+    compile project(':pullToRefreshViewPager')
+    compile 'com.github.iwgang:countdownview:2.1.6'
+    compile 'cn.qqtheme.framework:ColorPicker:1.1.3'
+    compile 'com.github.iwgang:familiarrecyclerview:1.3.0'
+    compile files('libs/afinal_0.5.1_bin.jar')
+    compile 'com.linsea:universalvideoview:1.1.0@aar'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_expandable_list.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_expandable_list.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\pullToRefresh_library\\build\\intermediates\\bundles\\default\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_list_fragment.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_list_fragment.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_webview2.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_webview2.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_horizontalscrollview.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_horizontalscrollview.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_viewpager.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_viewpager.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_list.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_list.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_grid.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_grid.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_list_in_vp.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_list_in_vp.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_listview_in_viewpager.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\layout_listview_in_viewpager.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\need_this_for_maven.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\pullToRefreshListFragment\\build\\intermediates\\bundles\\default\\res\\layout\\need_this_for_maven.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_scrollview.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_scrollview.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ptr_webview.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\src\\main\\res\\layout\\activity_ptr_webview.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\Android-PullToRefresh-master\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\pullToRefresh_library\\build\\intermediates\\bundles\\default\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    }
+]

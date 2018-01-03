@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\pullToRefreshListFragment\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\pullToRefresh_library\\build\\intermediates\\bundles\\default\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\FrameDemos\\pullToRefreshListFragment\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\asworkspace\\FrameDemos\\pullToRefresh_library\\build\\intermediates\\bundles\\default\\res\\drawable\\indicator_bg_top.xml"
+    }
+]

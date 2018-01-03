@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.lhq.ok406.framedemos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TotalMainActivity">
+            android:theme="stylno">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".picasso.activity.PicassoActivity"/>
+        <activity android:name=".picasso.activity.PicassoListviewActivity"/>
+        <activity android:name=".picasso.activity.PicassoTransfromationsActivity"/>
+        <activity android:name=".universalvideoview.UniversalVideoViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name=".afinal.AfinalActivity"/>
+        <activity android:name=".countdownview.MainActivity"/>
+        <activity android:name=".countdownview.ListViewActivity"/>
+        <activity android:name=".countdownview.ListViewActivity2"/>
+        <activity android:name=".countdownview.RecyclerViewActivity"/>
+        <activity android:name=".countdownview.RecyclerViewActivity2"/>
+        <activity android:name=".countdownview.DynamicShowActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".recyclerview.RecyclerViewActivity"/>
+        <activity android:name=".android_pulltorefresh.PullToRefreshMainActivity"/>
+        <activity android:name=".android_pulltorefresh.PullToRefreshWebViewActivity"/>
+        <activity android:name=".android_pulltorefresh.PullToRefreshViewPagerActivity" />
+        <activity android:name=".android_pulltorefresh.PullToRefreshListInViewPagerActivity" />
+        <activity android:name=".android_pulltorefresh.PullToRefreshListFragmentActivity" />
+        <activity android:name=".android_pulltorefresh.PullToRefreshGridActivity" />
+        <activity android:name=".android_pulltorefresh.PullToRefreshListActivity" />
+        <activity android:name=".opendanmaku.OpenDanmakuMainActivity" />
+        <activity android:name=".glide.activity.GlideActivity" />
+        <activity android:name=".banner.activity.BannerAnimationActivity" />
+        <activity android:name=".banner.activity.BannerStyleActivity" />
+        <activity android:name=".banner.activity.BannerMainActivity" />
+        <activity android:name=".banner.activity.CustomBannerActivity" />
+        <activity android:name=".banner.activity.IndicatorPositionActivity" />
+        <activity android:name=".imageLoader.activity.ImageLoaderActivity" />
+        <activity android:name=".json.activity.JsonStartActivity" />
+        <activity android:name=".json.activity.NativeJsonPraseActivity" />
+        <activity android:name=".json.activity.FastJsonActivity" />
+        <activity android:name=".json.activity.GsonActivity" />
+        <activity android:name=".eventbus.EventbusActivity" />
+        <activity android:name=".eventbus.MainActivity" />
+        <activity android:name=".glide.activity.GlideBaseActivity" />
+        <activity android:name=".glide.activity.GlideRecyclerviewActivity" />
+        <activity android:name=".glide.activity.GlideTranformationsActivity" />
+        <activity android:name=".volley.VolleyActivity" />
+        <activity android:name=".butterKnife.ButterKnifeActivity" />
+        <activity android:name=".xutils.FragmentXutilActivity" />
+        <activity android:name=".xutils.XUtilsNetActivity" />
+        <activity android:name=".fresco.FrescoSpimgActivity" />
+        <activity android:name=".xutils.XUtilsMainActivity" />
+        <activity android:name=".fresco.FrescoCropActivity" />
+        <activity android:name=".fresco.FrescoCircleAndCornerActivity" />
+        <activity android:name=".fresco.FrescoJpegActivity" />
+        <activity android:name=".fresco.FrescoGifAcitivity" />
+        <activity android:name=".fresco.FrescoMultiActivity" />
+        <activity android:name=".fresco.FrescoListenerActivity" />
+        <activity android:name=".fresco.FrescoResizeActivity" />
+        <activity android:name=".fresco.FrescoModifyActivity" />
+        <activity android:name=".fresco.FrescoAutoSizeActivity" />
+        <activity android:name=".fresco.FrescoActivity" />
+        <activity android:name=".imageLoader.activity.ImageLoaderListViewActivity" />
+        <activity android:name=".imageLoader.activity.ImageLoaderGridViewActivity" />
+        <activity android:name=".imageLoader.activity.ImageLoaderViewPagerActivity" />
+        <activity android:name=".okGo.OkGoGetActivity" />
+        <activity android:name=".okGo.OkGoBitmapActivity" />
+        <activity android:name=".okGo.OkGoDownloadActivity" />
+        <activity android:name=".okGo.OkGoUploadActivity" />
+        <activity android:name=".okGo.OKGoMainActivity" />
+        <activity android:name=".jiecaovideoPlayer.activity.JCVMainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/JieCaoVideoPlayerTheme"/>
+        <activity android:name=".jiecaovideoPlayer.activity.ListViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jiecaovideoPlayer.activity.ListViewNormalActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jiecaovideoPlayer.activity.ListViewViewpagerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jiecaovideoPlayer.activity.ListViewMultiHolderActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jiecaovideoPlayer.activity.RecyclerViewNormalActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jiecaovideoPlayer.activity.UISmallChangeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jiecaovideoPlayer.activity.WebViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

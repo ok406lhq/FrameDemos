@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载网络图片" />
+
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载资源图片" />
+
+            <ImageView
+                android:id="@+id/iv_2"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载本地图片" />
+
+            <ImageView
+                android:id="@+id/iv_3"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载网络gif" />
+
+            <ImageView
+                android:id="@+id/iv_4"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载资源gif" />
+
+            <ImageView
+                android:id="@+id/iv_5"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载本地gif" />
+
+            <ImageView
+                android:id="@+id/iv_6"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载本地小视频和快照" />
+
+            <ImageView
+                android:id="@+id/iv_7"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置缩略图比例,然后，先加载缩略图，再加载原图" />
+
+            <ImageView
+                android:id="@+id/iv_8"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="先建立一个缩略图对象，然后，先加载缩略图，再加载原图" />
+
+            <ImageView
+                android:id="@+id/iv_9"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
